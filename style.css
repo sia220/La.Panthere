@@ -9,17 +9,12 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+    transition: all .3s ease-in-out;  
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-a:focus, button:focus {
-    border: 1px solid black;
 }
 
 .texte {
@@ -475,9 +470,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
