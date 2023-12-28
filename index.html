@@ -7,19 +7,21 @@
     <meta name="description" content="Vous recherchez une entreprise de webdesign à Lyon ou vous voulez tout simplement un site pour votre entreprise ? Vous êtes au bon endroit ! Découvrez les sites réalisés par notre équipe de graphistes et développeurs puis contactez-nous pour passer au votre.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="robots" content="index, follow">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/png" href="favicon.webp">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="preload" fetchpriority="high" as="image" href="img/agence-la-panthere.webp" type="image/webp">
+
+
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="all">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" media="all" >
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css" media="all">
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script src="./js-minifier/jquery-2.1.0.min.js" defer></script>
+	<script src="./js-minifier/bootsrap.min.js" defer></script>
+	<script src="./js-minifier/blocs.min.js" defer></script>
+	<script src="./js-minifier/jquery.touchSwipe.min.js" defer></script>
 
     <title>Accueil - Agence La Panthère</title>
 
@@ -50,8 +52,6 @@
 						<a href="index.html" aria-current="page">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
 						<a href="Entreprise-webdesign-Lyon-Contact.html">page2 &gt;</a>
 					</li>
 				</ul>
@@ -67,7 +67,7 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="logo de l'entreprise de web design La Panthère" />
+				<img src="img/logo.webp" class="center-block image-resize-mode" width="100" alt="logo de l'entreprise de web design La Panthère" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					Entreprise Webdesign Lyon -<br>Agence La Panthère
 				</h1>
@@ -159,7 +159,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Journaux superposés les uns sur les autres" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="Journaux superposés les uns sur les autres" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -168,7 +168,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Appareil photo sur trépied posé dans la rue en soirée" /></a>
+				<a href="#" data-lightbox="img/2.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.webp" class="img-responsive portfolio-thumb" alt="Appareil photo sur trépied posé dans la rue en soirée" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
@@ -179,7 +179,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="Outils diverses, dont un ordinateur portable et un micro, posés sur une table"/></a>
+				<a href="#" data-lightbox="img/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.webp" class="img-responsive portfolio-thumb" alt="Outils diverses, dont un ordinateur portable et un micro, posés sur une table"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -188,7 +188,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Table de travail avec diverses objets, dont un ordinateur portable, une tablette, des rubans, un ciseau, du papier cartonné" /></a>
+				<a href="#" data-lightbox="img/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.webp" class="img-responsive portfolio-thumb" alt="Table de travail avec diverses objets, dont un ordinateur portable, une tablette, des rubans, un ciseau, du papier cartonné" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
