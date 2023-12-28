@@ -17,17 +17,6 @@ a:hover {
     cursor: pointer;
 }
 
-.texte {
-    font-size: 22px;
-    margin: 0px 30px;
-}
-.temoignage {
-    font-size: 20px;
-    font-style: italic; 
-}
-.client {
-    font-size: 20px;
-}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -101,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -817,19 +806,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1046,4 +1035,20 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+/* Mes modifications */
+
+.texte {
+    font-size: 22px;
+    margin: 0px 30px;
+}
+.temoignage {
+    font-size: 20px;
+    font-style: italic; 
+}
+.client {
+    font-size: 20px;
+    color: #575757;
 }
