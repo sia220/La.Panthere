@@ -13,7 +13,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+  
     cursor: pointer;
 }
 
@@ -673,7 +673,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1051,4 +1051,31 @@ h4 {
 .client {
     font-size: 20px;
     color: #575757;
+}
+a:hover {
+    text-decoration: underline !important;
+}
+.twitter {
+    height: 31px;
+    margin-bottom: 4px; 
+}
+.twitter__div {
+    height: 31px; 
+}
+.twitter__div a {
+   color: rgba(255, 255, 255, .6)!important;
+   text-decoration: none!important;
+}
+.twitter__div__a:hover {
+    color: white!important
+}
+.btn-d,
+.btn-d:hover,
+.btn-d:focus {
+    color: #FFF;
+    background: black;
+}
+.scrollToTop:hover .fa-chevron-up {
+    color: white;
+    
 }
